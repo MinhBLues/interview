@@ -49,6 +49,24 @@
 #### DOM 
 - API lập trình cho các tài liệu XML, HTML
 
+#### Responsive
+-  Responsive là phong cách thiết kế website phù hợp trên tất cả các thiết bị, mọi độ phân giải màn hình
+
+#### ReactJS
+- 
+
+#### This
+- this là 1 object
+- In an object method, this refers to the object.
+- Alone, this refers to the global object.
+- In a function, this refers to the global object.
+- In a function, in strict mode, this is undefined.
+- In an event, this refers to the element that received the event.
+- Methods like call(), apply(), and bind() can refer this to any object.
+
+#### window.onload và $("document").ready()
+- Window.onload(): Sự kiện này có ý nghĩa rằng khi trình duyệt đã load xong mọi thứ (image, js, css) thì những đoạn code nằm bên trong đó mới được chạy. Hay nói cách khác những đoạn code nằm bên trong sự kiện onload sẽ được chạy sau cùng khi mà trình JS đã được biên dịch 1 lần. 
+- $("document").ready(): Cũng giống với sự kiện Window.onload() nếu bạn muốn một sự kiện jQuery nào đó hoạt động bạn phải gọi nó bên trong hàm $(document).ready(). Nhưng mọi thứ bên trong hàm này sẽ được load ngay khi DOM Tree được load và trước khi toàn bộ nội dung của trang được load.
 
 #### 3. Async, Defer, Normal <script>
 - Async: bất đồng tải <script> trong việc dựng html.
